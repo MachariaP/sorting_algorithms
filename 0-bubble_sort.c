@@ -19,14 +19,18 @@ void bubble_sort(int *array, size_t size)
 	for (i = 0; i < size - 1; i++)
 	{
 		/* inner loop for each comparison and swap */
-		for (j = 0; j < size - i -1; j++)
+		for (j = 0; j < size - i - 1; j++)
 			/* compare adjacent elements and swap if need be */
-			if (array[j] > array[j + 1]) 
+			if (array[j] > array[j + 1])
 			{
 				/* swap array[j] and array[j + 1] */
 				int temp = array[j];
+
 				array[j] = array[j + 1];
+
 				array[j + 1] = temp;
+
+
 				/* print the array after each swap */
 				print_array(array, size);
 			}
