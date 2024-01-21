@@ -28,4 +28,8 @@ void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void insertion_sort_list(listint_t **list);
 
+/* function prototype for selection_sort */
+void print_array(const int *array, size_t size);
+void selection_sort(int *array, size_t size);
+
 #endif  /* SORT_H */
