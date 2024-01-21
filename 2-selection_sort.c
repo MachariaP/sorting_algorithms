@@ -32,7 +32,7 @@ void selection_sort(int *array, size_t size)
 			}
 		}
 
-		/* Swap the found minimum element with the first element of the unsorted part */
+		/* Swap minimum element with the first element of the unsorted part */
 		if (minIndex != i)
 		{
 			temp = array[i];
