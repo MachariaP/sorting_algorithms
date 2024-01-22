@@ -13,7 +13,7 @@ void bubble_sort(int *array, size_t size)
 	int temp;
 	int swap_counter = -1;
 
-	/*Array does not need to be sorted if size less than 2*/
+	/*Array does not need to be sorted if < 2*/
 	if (array == NULL || size < 2)
 	{
 		return;
